@@ -14,7 +14,6 @@ native bool EJBW_IsClientWarden(int client);
 /**
  * Check if warden exists
  *
- * @param client
  * @return        True if yes
  */
 native bool EJBW_WardenExist();
