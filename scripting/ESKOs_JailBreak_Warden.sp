@@ -87,6 +87,7 @@ public Action Event_OnPlayerDeath(Handle event, char[] name, bool dontBroadcast)
   {
     if(IsClientWarden(client))
     {
+      CPrintToChatAll("[Warden] - The warden has died!");
       warden = -1;
       Call_StartForward(gF_OnWardenDeath);
       Call_PushCell(client);
